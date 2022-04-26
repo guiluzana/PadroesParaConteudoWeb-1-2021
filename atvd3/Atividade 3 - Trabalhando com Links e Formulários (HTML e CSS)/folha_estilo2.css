@@ -1,0 +1,30 @@
+h1{
+	border-width:medium;
+	border-style:solid;
+	border-color:#ffffff;
+	margin-left:360px;
+	margin-right:360px;
+    text-align:center;
+    background-color:#007C30;
+    color: white;
+}
+p1{
+	margin-left:360px;
+	margin-right:360px;
+    text-align:center;
+    color:white;
+    font-size:100%;
+}
+body{
+	color:white;
+}
+h2{
+	text-align:center;
+}
+input{
+	font-size:150%;
+	background-color:#ffffff;
+}
+body{
+	background-color:#002E00;
+}
