@@ -1,0 +1,37 @@
+h1
+{
+	border-width:medium;
+	border-style:solid;
+	border-color:#000;
+	margin-left:360px;
+	margin-right:360px;
+    text-align:center;
+}
+table 
+{
+	border-collapse:collapse;
+}
+table 
+{
+    border: 1px solid black;
+    width: 50% !important;
+    margin: auto;
+}
+h2
+{
+	text-align:center;
+}
+p1
+{
+	margin-left:300px;
+	margin-right:150px;
+	background-color:pink;
+}
+ol
+{
+	margin-left:625px;
+}
+p2
+{
+	background-color:pink;
+}
