@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="folha_estilo2.css"/>	
+</head>
+<body>
+<h1>Formulário Participação INFOESTE - Semana de Computação e Informática da FIPP/UNOESTE</h1>	
+
+<!-- Link para a Matéria-->
+<p1>Veja agora quais são os novos inputs do HTML 5 para formulários
+<a href="https://desenvolvimentoparaweb.com/html/html5-inputs-novos-tipos-campos/" target="_blank">Clique Aqui</a></p1>
+<h2> Começe Agora seu Cadastro!</h2>
+<label>Usuário:</label><br/>
+
+<!--Tipo de Usuario-->
+<select name="opusuario">
+	<option value="1" selected="selected">Aluno</option><br/>
+	<option value="2">Professor</option><br/>
+</select></br>
+
+<!-- Já é aluno-->
+<p2> Já é Aluno da FIPP?</p2></br>
+<input type="radio" name="aluno" value="1"/>Sim<br/>
+<input type="radio" name="aluno" value="1"/>Não<br/>
+
+<!--Nome-->
+<label for="nomeusuario">Nome:</label></br>
+<input type="text" name="nomeusuario" size="40" maxlength="30" placeholder="Digite Seu Nome e Sobrenome..."><br/>
+
+<!--Email-->
+<label for="temail">Email:</label></br>
+<input type="email" name="temail" size="40" placeholder="seu_email@email.com"/></br>
+
+<!--RA do Usuario-->
+<label for="rausuario">RA:</label></br>
+<input type="text" name="rausuario" size="15" maxlength="20" placeholder="Digite Seu RA..."><br/>
+
+<!--Telefone-->
+<label for="tfone">Telefone:</label><br/>
+<input type="tel" name="tfone" size="40" pattern="\(\d{2}\)\s\d{5}-\d{4}" placeholder="(99) 99999-9999"></br>
+
+<!--CEP-->
+<label for="tcep">CEP:</label></br>
+<input type="tel" name="tcep" size="40" pattern="\(\d{5}-\d{3}" placeholder="12345-678"></br>	
+
+<!-- Disponibilidade de Dias-->
+<form name="dias">
+	<p2> Qual sua disponibilidade?</p2><br/>
+	<input type="checkbox" name="segunda" value="1"/>Segunda 29/03<br/>
+	<input type="checkbox" name="terça" value="2"/>Terça 30/03<br/>
+	<input type="checkbox" name="quarta" value="3"/>Quarta 31/03<br/>
+	<input type="checkbox" name="quinta" value="4"/>Quinta 01/04<br/>
+	<input type="checkbox" name="sexta" value="5"/>Sexta 02/04<br/>
+</form>
+<!-- Observação-->
+<label for="tobservacao">Observações:</label></br>
+<textarea name="tobservacao" cols="50" rows="10" placeholder="Digite..." ></textarea>
+
+<!--botões-->
+<form>
+	<input type="submit" name="tlimpar" value="Limpar"/>
+	<input type="button" name="tmensagem" value="Enviar" onclick="alert('Cadastro Realizado Com Sucesso!')"/>
+</form>
+</body>
+</html>
+<!--Fim-->
